@@ -16,6 +16,16 @@ public class MergeSort<Type extends Comparable<Type>> implements AlgorithmBasics
     {
         this.unsortedArray = unsortedArray;
     }
+
+    public void setArray(ArrayList<Type> unsortedArray)
+    {
+        this.unsortedArray = unsortedArray;
+    }
+
+    public ArrayList<Type> getArray()
+    {
+        return unsortedArray;
+    }
     
     public void sort()
     {
